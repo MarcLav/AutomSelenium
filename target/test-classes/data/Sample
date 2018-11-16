@@ -1,0 +1,8 @@
+TexteLog;ActionType;ByType;Texte
+Renseigne le nom de l'utilisateur;input;id,txtUsername;"Admin"
+Renseigne le mot de passe de l'utilisateur;input;id,txtPassword;"admin123"
+Click sur Connexion;click;id,btnLogin;""
+Click sur la fonction admin du dashboard;click;id,menu_admin_viewAdminModule;""
+Recherche utilisateur;input;id,searchSystemUser_userName;"linda.anderson"
+Click sur le bouton rechercher;click;id,searchBtn;""
+Click sur l'utilisateur;click;xpath,//*[@id="resultTable"]/tbody/tr/td[2]/a;""

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NonRegression" verbose="1">
+	<listeners>
+		<listener class-name="listeners.TestListener" />
+		<listener class-name="listeners.AnnotationTransformer" />
+	</listeners>
+
+	<test name="Test 1">
+		<parameter name="platform" value="WINDOWS" />
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="11" />
+		<parameter name="baseUrl"
+			value="https://opensource-demo.orangehrmlive.com/index.php/auth/login" />
+		<classes>
+			<class name="tests.Sample" />
+		</classes>
+	</test>
+</suite>	
